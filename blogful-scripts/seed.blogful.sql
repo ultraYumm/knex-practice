@@ -1,0 +1,25 @@
+INSERT INTO blogful_articles (title, content, date_published)
+VALUES
+    ('Fish tricks', 'Main', now() - '21 days'::INTERVAL),
+    ('Not Dogs', 'Snack', now() - '21 days'::INTERVAL),
+    ('Bluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('aluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('bish tricks', 'Main', now() - '21 days'::INTERVAL),
+    ('cot Dogs', 'Snack', now() - '21 days'::INTERVAL),
+    ('dluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('eluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('Fish tricks', 'Main', now() - '21 days'::INTERVAL),
+    ('got Dogs', 'Snack', now() - '21 days'::INTERVAL),
+    ('hluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('iluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('jish tricks', 'Main', now() - '21 days'::INTERVAL),
+    ('kot Dogs', 'Snack', now() - '21 days'::INTERVAL),
+    ('lluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('mluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('nluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('oluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('pluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('qluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('rluffalo Wings', 'Snack', now() - '21 days'::INTERVAL),
+    ('sluffalo Wings', 'Snack', now() - '21 days'::INTERVAL)
+;

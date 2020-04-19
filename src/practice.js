@@ -6,15 +6,15 @@ const knexInstance = knex({
   connection: process.env.DB_URL,
 })
 
-knexInstance.from('shopping_list').select('*')
+/*knexInstance.from('shopping_list').select('*')
 .then(result => {
     console.log(result)
 })
 
 const q1 = knexInstance('amazong_products').select('*').toQuery()
-const q2 = knexInstance.from('amazong_products').select('*').toQuery()
+const q2 = knexInstance.from('amazong_products').select('*').toQuery()*/
 
-const qry = knexInstance
+/*const qry = knexInstance
   .select('product_id', 'name', 'price', 'category')
   .from('amazong_products')
   .where({ name: 'Point of view gun' })
@@ -23,7 +23,7 @@ const qry = knexInstance
   // .then(result => {
   //   console.log(result)
   // })
-  const searchTerm = 'holo'
+  const searchTerm = 'holo'*/
 
 function searchByProduceName(searchTerm) {
 knexInstance
